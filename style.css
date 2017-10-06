@@ -1,0 +1,636 @@
+
+
+#site {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+} 
+
+/*
+  ========================================
+  Background Styles
+  ========================================
+*/
+
+.headerwrapper {
+    overflow-x: hidden;
+}
+
+
+.intro {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 80%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.sightgag {
+    overflow-x: hidden;
+}
+
+.pun {
+    overflow-x: hidden;
+}
+
+.wordplay {
+    overflow-x: hidden;
+}
+
+.references {
+    overflow-x: hidden;
+}
+
+.mishap {
+    overflow-x: hidden;
+}
+
+.twist {
+    overflow-x: hidden;
+}
+
+.callback {
+    overflow-x: hidden;
+}
+
+/*
+  ========================================
+  Type Styles
+  ========================================
+*/
+
+
+
+.header {
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 35px;
+    line-height: 85px;
+}
+
+.header2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    background-color: white;
+    width: 56%;
+    border-radius: 25px;
+}
+
+.author {
+    font-family: 'anton', sans-serif;
+}
+
+.body {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    
+}
+
+h2 {
+    font-family: 'Pangolin', cursive;
+    font-size: 30px;
+
+}
+
+/*
+  ========================================
+  Desktop Grid Styles
+  ========================================
+*/
+
+
+@media all and (max-width: 1524px) {
+    
+   
+    
+    .body {
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding: 0;
+        margin-left: 1.5em;
+        box-sizing: border-box;
+    }
+    
+    .header {
+        margin-left: 2em;
+        width: 90%;
+    }
+    
+    .header2 {
+        margin-left: 5em;
+    }
+    
+    .author {
+        margin-left: 5em;
+    }
+    
+    
+/*    INTRO     */
+    
+    .introimg {
+        justify-content: flex-start;
+        margin-left: 0em;
+        max-width: 50%;
+    }
+    
+    .introimg2 {
+        margin-right: 2em;
+        margin-top: 15em;
+    }
+    
+    .introtext {
+        display: inline-block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        border-radius: 25px;
+        padding-left: .5em;
+        padding-right: .5em;
+}
+    
+    
+/*   THE SIGHT GAG    */
+    
+    .sightgagtext {
+        display: inline-block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+
+    .sightimg {
+        justify-content: flex-start;
+        margin-left: 2em;
+        max-width: 50%;
+        margin-top: 20em;
+    }
+    
+    .sightimg2 {
+        margin-right: 2em;  
+        margin-top: 6em;
+    }
+    
+/*    THE PUN     */
+    
+    .puntext {
+        display: inline-block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+    
+    .punimg {
+        justify-content: flex-start;
+        margin-left: 2em;
+        max-width: 50%;
+        margin-top: 20em;
+    }
+    
+    .punimg2 {
+        margin-right: 2em;  
+        margin-top: 6em;
+    }
+    
+/*    THE WORDPLAY     */
+
+      .wordplaytext {
+        display: inline-block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+    
+    .wordimg {
+        justify-content: flex-start;
+        margin-left: 2em;
+        max-width: 50%;
+        margin-top: 20em;
+    }
+    
+    .wordimg2 {
+        margin-right: 2em;  
+        margin-top: 6em;
+    }
+    
+    /*    THE REFERENCES     */
+    
+    .poptext {
+        display: inline-block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+    
+    .popimg {
+        justify-content: flex-start;
+        margin-left: 2em;
+        max-width: 50%;
+        margin-top: 20em;
+    }
+    
+    .popimg2 {
+        margin-right: 2em;  
+        margin-top: 7em;
+    }
+    
+/*    THE SCREWBALL MISHAP     */
+    
+    .mishaptext {
+        display: inline-block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+    
+    .mishapimg {
+        justify-content: flex-start;
+        margin-left: 2em;
+        max-width: 50%;
+        margin-top: 15em;
+    }
+    
+    .mishapimg2 {
+        margin-right: 2em; 
+    }
+    
+    
+    /*    THE STRUCTURAL TWIST     */
+    
+    .twisttext {
+        display: inline-block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+    
+    .twistimg {
+        justify-content: flex-start;
+        margin-left: 2em;
+        max-width: 50%;
+        margin-top: 20em;
+    }
+    
+    .twistimg2 {
+        margin-right: 2em;  
+        margin-top: 3em;
+    }
+    
+    /*    THE CALLBACK     */
+    
+        
+    .callbacktext {
+        display: inline-block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+    
+    .callbackimg {
+        justify-content: flex-start;
+        margin-left: 2em;
+        max-width: 50%;
+        margin-top: 20em;
+    }
+    
+    .callbackimg2 {
+        margin-right: 2em;  
+        margin-top: 5em;
+    }
+    
+    
+    /*
+  ========================================
+  Desktop background Styles
+  ========================================
+*/
+
+.headerwrapper {
+    overflow-x: hidden;
+}
+
+
+.intro {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.sightgag {
+    overflow-x: hidden;
+    height: 80vh;
+    display: flex;
+}
+
+.pun {
+    overflow-x: hidden;
+    height: 80vh;
+    display: flex;
+}
+
+.wordplay {
+    overflow-x: hidden;
+    height: 95vh;
+    display: flex;
+}
+
+.references {
+    overflow-x: hidden;
+    height: 110vh;
+    display: flex;
+}
+
+.mishap {
+    overflow-x: hidden;
+    height: 70vh;
+    display: flex;
+}
+
+.twist {
+    overflow-x: hidden;
+    height: 90vh;
+    display: flex;
+}
+
+.callback {
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+}
+
+ /*
+  ========================================
+  Mobile Styles
+  ========================================
+*/
+    
+@media all and (max-width: 841px) {
+    
+/*    IMAGE STYLES     */
+    
+    .introimg {
+        display: none;
+    }
+    
+    .introimg2 {
+        display: none;
+    }
+    
+    .sightimg {
+       display: none;
+    }
+    
+    .sightimg2 {
+        display: none;
+    }
+    
+    .punimg {
+        display: none;
+    }
+    
+    .punimg2 {
+        display: none;
+    }
+    
+     .wordimg {
+        display: none;
+    }
+    
+    .wordimg2 {
+        display: none;
+    }
+    
+    .popimg {
+        display: none;
+    }
+    
+    .popimg2 {
+        display: none;
+    }
+    
+     .mishapimg {
+        display: none;
+    }
+    
+    .mishapimg2 {
+        display: none; 
+    }
+    
+    .twistimg {
+        display: none;
+    }
+    
+    .twistimg2 {
+        display: none;
+    }
+    
+     .callbackimg {
+        display: none;
+    }
+    
+    .callbackimg2 {
+        display: none;
+    }
+    
+    
+    /*   TEXT STYLES (header)     */
+    
+     .body {
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding: 0;
+        box-sizing: border-box;
+        margin-left: -.2em;
+    }
+    
+    .header {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    
+    .header2 {
+        margin-left: 1.5em;
+        width: 80%;
+        font-size: 15px;
+    }
+    
+    .author {
+        margin-left: 1.2em;
+        background-color: white;
+        border-radius: 25px;
+        padding-left: 7px;
+        width: 30%;
+    }
+    
+/*  TEXT STYLES (body)     */
+    
+    
+    
+    .introtext {
+        display: inline-block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        border-radius: 25px;
+}
+
+    .sightgagtext {
+        display: inline-block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+
+ 
+    .puntext {
+        display: inline-block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+
+
+      .wordplaytext {
+        display: inline-block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+    
+   
+    .poptext {
+        display: inline-block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+
+    .mishaptext {
+        display: inline-block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+    
+    
+    .twisttext {
+        display: inline-block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+    
+        
+    .callbacktext {
+        display: inline-block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+    
+
+    /*    FLEXBOX STYLES    */
+    
+    .headerwrapper {
+    overflow-x: hidden;
+}
+
+
+    .intro {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 180vh;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .sightgag {
+        overflow-x: hidden;
+        height: 140vh;
+        display: flex;
+    }
+
+    .pun {
+        overflow-x: hidden;
+        height: 130vh;
+        display: flex;
+    }
+
+    .wordplay {
+        overflow-x: hidden;
+        height: 165vh;
+        display: flex;
+    }
+
+    .references {
+        overflow-x: hidden;
+        height: 215vh;
+        display: flex;
+    }
+
+    .mishap {
+        overflow-x: hidden;
+        height: 115vh;
+        display: flex;
+    }
+
+    .twist {
+        overflow-x: hidden;
+        height: 145vh;
+        display: flex;
+    }
+
+    .callback {
+        overflow-x: hidden;
+        height: 190vh;
+        display: flex;
+    }
+
+    
+    
+    }
+    
